@@ -69,9 +69,15 @@ bchIcon.addEventListener('click', () => {
 });
 
 contactSubmit = document.getElementById("contact-submit");
-contactSubmit.addEventListener('click', submitContact());
+contactSubmit.addEventListener('click', (event) => {
+  event.preventDefault();
+  submitContact()
+
+});
+
 
 function submitContact() {
+
   console.log("Submit working")
 
 }
