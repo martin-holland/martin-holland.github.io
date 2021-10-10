@@ -343,6 +343,56 @@ input[type=submit] {
 
 }
 
+@media (max-width: 375px) {
+
+    body {
+        font-size: 0.5rem;
+        max-width: 100%;
+        background-color: #386B52;
+    }
+    
+    main {
+        background-color: #386B52;
+        display:flex;
+        margin-top: 20vh;
+    }
+
+    .gallery-container {
+        margin: 0% 10%;
+        width: 80vw;
+        height: 70vh;
+    }
+
+    .gallery-container a {
+        color: yellow;
+        display:block;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .main_nav {
+        flex-wrap:wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    #logo {
+        margin-left: 10px;
+    }
+
+    #projectsicon, #aboutmeicon, #skillsicon, #homeicon, #bchicon {
+        display: inline;
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    #projectslink, #aboutmelink, #skillslink, #homelink, #bchlink {
+        display: none;
+    }
+
+}
+
 
 /* Media Queries */
 /* iPhone SE (up to 320px) */
