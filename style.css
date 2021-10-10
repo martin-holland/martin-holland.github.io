@@ -165,7 +165,7 @@ footer {
     color: var(--bg-dark-green);
 }
 footer h2 {
-    padding: 2em;
+    padding: 1.5em;
     margin: 0;
 }
 form {
@@ -175,7 +175,9 @@ form {
     border-width: 1px;
     border-style: solid;
     padding: 10px;
+    box-shadow: black 0px 0px 2px;
 }
+
 label.progress {
     font-size: 1.25em;
     display: block;
@@ -198,6 +200,8 @@ input {
     display: inline-block;
     border-radius: 10px;
     border: none;
+    padding: 20px;
+    text-align: center;
 }
 
 textarea {
@@ -218,6 +222,11 @@ input[type=submit] {
     text-transform: uppercase;
     color: #f7df56;
     cursor: pointer;
+    padding: 0px;
+}
+
+form label, input, textarea {
+    margin: 10px 0px;
 }
 
 #message {

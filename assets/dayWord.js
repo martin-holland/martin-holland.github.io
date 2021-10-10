@@ -68,10 +68,11 @@ bchIcon.addEventListener('click', () => {
   window.location.href = 'http://www.bc.fi/en'
 });
 
-contactSubmit = document.getElementById("contact-submit");
+const contactSubmit = document.getElementById('contact-submit');
+
 contactSubmit.addEventListener('click', (event) => {
   event.preventDefault();
-  submitContact()
+  submitContact();
 
 });
 

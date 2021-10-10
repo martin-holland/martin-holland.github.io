@@ -221,6 +221,8 @@ input {
     display: inline-block;
     border-radius: 10px;
     border: none;
+    padding: 20px;
+    text-align: center;
 }
 
 textarea {
@@ -241,6 +243,7 @@ input[type=submit] {
     text-transform: uppercase;
     color: #f7df56;
     cursor: pointer;
+    padding: 0px;
 }
 
 #message {
