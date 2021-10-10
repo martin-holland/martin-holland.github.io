@@ -691,8 +691,8 @@ form label, input, textarea {
     
     #projectsicon, #aboutmeicon, #skillsicon, #galleryicon, #bchicon {
         display: inline;
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
         margin-top: 10px;
         margin-right: 10px;
     }
