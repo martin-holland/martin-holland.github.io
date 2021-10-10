@@ -132,6 +132,7 @@ p {
 
 #wordoftheday p {
     padding: 20px;
+    font-size: 1.25em;
 }
 #dayWord {
     background-color: var(--bg-dark-green);
@@ -325,10 +326,6 @@ form label, input, textarea {
 #projectsicon, #aboutmeicon, #skillsicon, #galleryicon, #bchicon {
     display: none;
 }
-
-/* Media Queries */
-/* iPhone SE (up to 320px) */
-
 
 #leaves {
     position:relative;
@@ -549,6 +546,27 @@ form label, input, textarea {
         margin-right: 10px;
     }
 
+    #wordoftheday {
+        background-color: var(--bg-dark-green);
+        text-align: center;
+        color: var(--text-bright);
+        margin: 2em;
+        font-size: 1.25em;
+        border-radius: 10px;
+    }
+    
+    #wordoftheday p {
+        padding: 20px;
+        font-size: 1.25em;
+    }
+    #dayWord {
+        background-color: var(--bg-dark-green);
+        text-align: center;
+        color: var(--text-bright);
+        font-size: 1.25em;
+        border-radius: 10px;
+    }
+
 }
 
 
@@ -596,6 +614,26 @@ form label, input, textarea {
         display: none;
     }
     
+    #wordoftheday {
+        background-color: var(--bg-dark-green);
+        text-align: center;
+        color: var(--text-bright);
+        margin: 2em;
+        font-size: 1.25em;
+        border-radius: 10px;
+    }
+    
+    #wordoftheday p {
+        padding: 20px;
+        font-size: 1.25em;
+    }
+    #dayWord {
+        background-color: var(--bg-dark-green);
+        text-align: center;
+        color: var(--text-bright);
+        font-size: 1.25em;
+        border-radius: 10px;
+    }
     
 }
 
@@ -701,6 +739,27 @@ form label, input, textarea {
     
     #projectslink, #aboutmelink, #skillslink, #gallerylink, #bchlink {
         display: none;
+    }
+
+    #wordoftheday {
+        background-color: var(--bg-dark-green);
+        text-align: center;
+        color: var(--text-bright);
+        margin: 2em;
+        font-size: 1.25em;
+        border-radius: 10px;
+    }
+    
+    #wordoftheday p {
+        padding: 20px;
+        font-size: 1.25em;
+    }
+    #dayWord {
+        background-color: var(--bg-dark-green);
+        text-align: center;
+        color: var(--text-bright);
+        font-size: 1.25em;
+        border-radius: 10px;
     }
     
     
