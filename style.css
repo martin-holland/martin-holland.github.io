@@ -549,6 +549,161 @@ form label, input, textarea {
 
 }
 
+
+/* Media queries ipad max width 768px */
+
+@media (max-width: 768px) {
+    
+    .main_nav {
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    #logo {
+        margin-left: 10px;
+    }
+    
+    .cards {
+        flex-direction:column;
+        text-align: center;
+    }
+    
+    .card {
+        width: 90%;
+        padding: 20px;
+        box-shadow: black 0px 0px 10px;
+    }
+    
+    .card img {
+        padding: 20px;
+    }
+    
+    .iconswrapper img {
+        height: 100px;
+        width: 100px;
+    }
+    
+    #projectsicon, #aboutmeicon, #skillsicon, #galleryicon, #bchicon {
+        display: inline;
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    #projectslink, #aboutmelink, #skillslink, #gallerylink, #bchlink {
+        display: none;
+    }
+    
+    
+}
+
+
+
+@media (max-width: 375px) {
+    
+    body {
+        font-size: 0.5rem;
+        max-width: 100%;
+    }
+    
+    header {
+        max-width: 100%;
+        height: 100vh;
+        background-image: url("./assets/banner.svg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: right;
+    }
+    
+    img.others {
+        display: block;
+        margin: auto;
+        padding: 20px;
+        max-width: 100%;
+    }
+    p {
+        padding: 20px;
+    }
+    
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .card  {
+        width: 90%;
+        background-color: var(--bg-light-green);
+        margin: 0.2rem;
+        border-radius: 1rem;
+        border-style: solid;
+        padding: 0.5em;
+        box-shadow: black 0px 0px 10px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .card img {
+        width: 100%;
+        max-height: 40%;
+        object-fit: cover;
+        padding: 20px;
+    }
+    
+    .card h3,
+    .card p,
+    .card a {
+        padding: 0 10px;
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    
+    
+    .top {
+        background-color: black;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        color: white;
+        width: 12vw;
+        height: 6vh;
+        font-size: 2rem;
+        border-radius: 10px;
+        border: none;
+        transition: all 1s;
+        cursor: pointer;
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    label {
+        margin-left: 10px;
+    }
+    
+    .main_nav {
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    #logo {
+        margin-left: 10px;
+        width: 50vw;
+    }
+    
+    #projectsicon, #aboutmeicon, #skillsicon, #galleryicon, #bchicon {
+        display: inline;
+        height: 70px;
+        width: 70px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    #projectslink, #aboutmelink, #skillslink, #gallerylink, #bchlink {
+        display: none;
+    }
+    
+    
+}
+
 @media (max-width: 360px) {
     
     body {
@@ -653,53 +808,6 @@ form label, input, textarea {
     
     
 }
-/* Media queries ipad max width 768px */
-
-@media (max-width: 768px) {
-    
-    .main_nav {
-        flex-wrap:wrap;
-        align-items: center;
-    }
-    #logo {
-        margin-left: 10px;
-    }
-    
-    .cards {
-        flex-direction:column;
-        text-align: center;
-    }
-    
-    .card {
-        width: 90%;
-        padding: 20px;
-        box-shadow: black 0px 0px 10px;
-    }
-    
-    .card img {
-        padding: 20px;
-    }
-    
-    .iconswrapper img {
-        height: 100px;
-        width: 100px;
-    }
-    
-    #projectsicon, #aboutmeicon, #skillsicon, #galleryicon, #bchicon {
-        display: inline;
-        height: 70px;
-        width: 70px;
-        margin-top: 10px;
-        margin-right: 10px;
-    }
-    
-    #projectslink, #aboutmelink, #skillslink, #gallerylink, #bchlink {
-        display: none;
-    }
-    
-    
-}
-
 
 @media (max-width: 320px) {
 
