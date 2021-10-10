@@ -126,16 +126,18 @@ p {
     text-align: center;
     color: var(--text-bright);
     margin: 2em;
-    font-size: 1.5em;
+    font-size: 1.25em;
     border-radius: 10px;
-    
+}
+
+#wordoftheday p {
+    padding: 20px;
 }
 #dayWord {
     background-color: var(--bg-dark-green);
     text-align: center;
     color: var(--text-bright);
-    margin: 2em;
-    font-size: 1.5em;
+    font-size: 1.25em;
     border-radius: 10px;
 }
 
