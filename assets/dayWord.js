@@ -79,7 +79,7 @@ contactSubmit.addEventListener('click', (event) => {
 
 function submitContact() {
 
-  console.log("Submit working")
+  
 
 }
 
