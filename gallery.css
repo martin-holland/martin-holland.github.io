@@ -135,65 +135,38 @@ main {
 .gallery1 {
     grid-area: a;
     background: url(assets/designimg.png) center / cover;
-    /* background-size: cover;
-    /* background-attachment:local; */
-    /* object-fit: fill; */
 }
 .gallery2 {
     grid-area: b;
     background: url(assets/codeimg.png) center / cover;;
-    /* background-size: cover;
-    /* background-attachment:local; */
-    /* object-fit: fill; */
 }
 .gallery3 {
     grid-area: c;
     background: url(assets/forestlaptop.png) center / cover;;
-    /* background-size: cover;
-    /* background-attachment:local; */
-    /* object-fit: fill; */
 }
 .gallery4 {
     grid-area: d;
     background: url(assets/headphonesnature.png) center / cover;
-    /* background-size: cover;
-    /* background-attachment:local; */
-    /* object-fit: fill; */
 }
 .gallery5 {
     grid-area: e;
     background: url(assets/greenfield.png) center / cover;;
-    /* background-size: cover;
-    /* background-attachment:local; */
-    /* object-fit: fill; */
 }
 .gallery6 {
     grid-area: f;
     background: url(assets/greentree.png) center / cover;;
-    /* background-size: cover; */
-    /* background-attachment:local; */
-    /* object-fit: fill; */
 }
 .gallery7 {
     grid-area: g;
     background: url('https://images.unsplash.com/photo-1581291184976-f565a4574764?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80') center / cover;
-    /* background-size: cover; */
-    /* background-attachment:local; */
-    /* object-fit: fill; */
 }
 .gallery8 {
     grid-area: h;
     background: url('https://images.unsplash.com/photo-1485257334450-84ec1ba6393d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2944&q=80') center / cover;
-    /* background-size: cover; */
-    /* background-attachment:local; */
-    /* object-fit: fill; */
 }
 .gallery9 {
     grid-area: i;
     background: url('https://images.unsplash.com/photo-1632813889917-d4bd676ec222?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80') center / cover;
-    /* background-size: cover; */
-    /* background-attachment:local; */
-    /* object-fit: fill; */
 }
 
 
