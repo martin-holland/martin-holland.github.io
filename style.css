@@ -219,7 +219,7 @@ textarea {
 
 input[type=submit] {
     text-align: center;
-    background-color: var(--bg-dark-green);
+    background-color: #386B52;
     border-radius: 10px;
     border: none;
     text-transform: uppercase;
